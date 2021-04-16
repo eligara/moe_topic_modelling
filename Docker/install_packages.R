@@ -1,7 +1,4 @@
-install.packages("readr")
-#install.packages("dplyr")
-#install.packages("ggplot2")
-
+install.packages("readr") #to read .zip read counts file 
 install.packages("BiocManager")
 
-BiocManager::install("CountClust")
+BiocManager::install("CountClust")  #implemented lda algorithm
